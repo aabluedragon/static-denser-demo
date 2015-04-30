@@ -1,0 +1,23 @@
+{
+  "name": "static-dense-demo",
+  "version": "1.0.0",
+  "description": "Demo of static-dense middleware for express",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aabluedragon/static-denser-demo.git"
+  },
+  "author": "Alon Amir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aabluedragon/static-denser-demo/issues"
+  },
+  "homepage": "https://github.com/aabluedragon/static-denser-demo",
+  "dependencies": {
+    "express": "^4.12.3",
+    "static-denser": "^1.0.0"
+  }
+}

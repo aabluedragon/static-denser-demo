@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html manifest="index.appcache">
+<head>
+<!--
+    Redirecting to main.html with correct dpr url prefix path,
+    The virtual directory to specify our dpr, that's the trick :}
+-->
+    <script type="text/javascript">
+        var path = (''+location).replace(/[^\/]*$/, '');
+        location = path+(
+                        (devicePixelRatio||1)===1?'':(devicePixelRatio+'/')
+                )+'main.html';
+    </script>
+</head>
+</html>

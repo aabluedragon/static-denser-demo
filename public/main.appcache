@@ -1,0 +1,10 @@
+CACHE MANIFEST
+# something
+
+CACHE:
+index.html
+main.jpg
+# main.jpg will actually download main@2x.jpg if used the /2/ path density url.
+
+NETWORK:
+*
